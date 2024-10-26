@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Cars</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation Menu -->
+      <nav class="nav">
+        <h1>Electric Cars</h1>
+        <!-- Hidden checkbox to toggle menu visibility -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Catálogo</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Search Filter Section -->
+      <aside class="filters">
+        <label for="ordenar">Ordenar Por:</label>
+        <select id="ordenar">
+          <option value="precio">Precio</option>
+          <option value="precio">Año</option>
+        </select>
+      </aside>
+
+      <!-- Main Section -->
+      <main class="main">
+        <div class="products">
+          <div class="product">
+            <img src="assets/imgs/1.webp" alt="City Car">
+            <h2>Model: City Car</h2>
+            <button>Ver más</button>
+          </div>
+          <div class="product">
+            <img src="assets/imgs/2.webp" alt="City Car">
+            <h2>Model: Sleek Car</h2>
+            <button>Ver más</button>
+          </div>
+          <div class="product">
+            <img src="assets/imgs/3.webp" alt="City Car">
+            <h2>Model: Race Car</h2>
+            <button>Ver más</button>
+          </div>
+          <div class="product">
+            <img src="assets/imgs/4.webp" alt="City Car">
+            <h2>Model: Family Car</h2>
+            <button>Ver más</button>
+          </div>
+          <!-- Repeat the product structure for more items if needed -->
+        </div>
+        <div class="pagination">
+          <button>≪</button>
+          <button id="active">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>≫</button>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Todos los derechos reservados</p>
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/198389ce38.js" crossorigin="anonymous"></script>
+  </body>
+</html>
