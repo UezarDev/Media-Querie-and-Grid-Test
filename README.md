@@ -1,4 +1,4 @@
-# DesafioLatam - Modulo 2
+# DesafioLatam - Modulo 2 - CSS
 
 ## Desafío 3 - Media Querie y Grid
 
